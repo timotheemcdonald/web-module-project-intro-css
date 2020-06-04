@@ -1,0 +1,142 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+  }
+
+@import url(https://fonts.google.com/specimen/Roboto+Mono);
+@import url(https://fonts.google.com/specimen/Chelsea+Market);
+
+html {
+    font-size: 62.5%;
+    color:black;
+}
+
+body {
+    font-family: 'Roboto Mono';
+    font-size: 1.6rem;
+}
+
+header, footer {
+    text-align: center;
+    display:inline;
+    margin: 10%;
+}
+
+nav a{
+    text-decoration:none;
+    margin:0 4%;
+  }
+
+.plan {
+    background-color:#FF764E;
+    color:white;
+    width: 20%;
+    text-align: center;
+    display:inline-block;
+    border-radius: 10px;
+    padding: 1% 0;
+}
+
+.learn {
+    background-color:#5ED3EB;
+    color:white;
+    width: 20%;
+    text-align: center;
+    display:inline-block;
+    border-radius: 10px;
+    padding: 1% 0;
+}
+
+.get {
+    background-color:#FFCD69;
+    color:white;
+    width: 20%;
+    text-align: center;
+    display:inline-block;
+    border-radius: 10px;
+    padding: 1% 0;
+}
+
+
+p {
+    margin: 2%;
+}
+
+
+#container{
+    width: 100%;
+    text-align:center;
+    display:block;
+}
+
+#hp {
+    display:inline-block;
+    margin-left:5%;
+    padding:1%;
+    width:30%;
+    text-align:center;
+}
+
+#headphoto {
+    border-radius:50%;
+}
+
+#yostext {
+    display:inline-block;
+    margin-left:5%;
+    padding:1%;
+    width: 50%;
+    text-align:center;
+    line-height:3;
+}
+
+h1 {
+    font-family: 'Chelsea Market';
+    font-size: 5rem;
+}
+
+
+
+#firepart {
+    height:50vh;
+    border-radius:50%;
+    padding:4%;
+}
+#carpart {
+    height:50vh;
+    border-radius:50%;
+    padding: 4%;
+}
+
+.intro {
+    background-color: #DDB9A3;
+    color: white;
+    padding: 2%;
+    margin: 4%;
+}
+
+#mainsec {
+    text-align:center;
+    width:25%;
+    margin:5% 40%;
+}
+
+.main {
+    display:inline-block;
+}
+
+
+#footimg {
+    background-image:url('./assets/footer_img.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:50vh;
+    background-position:center;
+  }
+
+
+footer {
+    background-color:#F9E7DC;
+}
